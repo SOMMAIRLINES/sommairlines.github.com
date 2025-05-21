@@ -26,12 +26,18 @@ body {
 input {
 	border: 200px;
 	border-radius: 100px;
+	height: 20px;
+	font-size: 20px;
+	width: 200px;
 }
 
 #knopf {
 	color: black;
 	border: 100px;
 	border-radius: 100px;
+	height: 25px;
+	width: 110px;
+	margin-left: 42px;
 	
 }
 
@@ -44,15 +50,15 @@ font-size: 150px;
 } 
  
 p {
-
+font-size: 22px;
 }
 
 li {
-
+font-size: 22px;
 }
   
 h3 {
-
+font-size: 25px;
 }
 
 #menue {
