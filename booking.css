@@ -37,15 +37,15 @@ select {
 }
 
 #auswahl {
-	width: 22px;
+	width: 60px;
 }
 
 #year {
-	width: 50px;
+	width: 60px;
 }
 
 #year1 {
-	width: 50px;
+	width: 60px;
 }
 
 #year2 {
@@ -82,7 +82,7 @@ select {
 }
 
 #deal {
-	width: 100px;
+	width: 120px;
 }
 
 #bestaetigen {
@@ -91,6 +91,10 @@ select {
 	border-radius: 50px;
 	color: black;
 	background-color: coral;
+}
+
+#personen {
+	width: 35px;
 }
 
 /* Add a black background color to the top navigation */
