@@ -1,0 +1,125 @@
+body {
+	background-color: lightblue;
+}
+
+h1 {
+font-size: 35px;
+} 
+ 
+p {
+font-size: 22px;
+}
+
+li {
+font-size: 22px;
+}
+  
+h3 {
+font-size: 25px;
+}
+
+input {
+	border: 200px;
+	border-radius: 100px;
+	height: 70px;
+	width: 700px;
+	font-size: 22px;
+}
+
+select {
+	border: 200px;
+	border-radius: 0px;
+	height: 25px;
+	width: 20px;
+	font-size: 22;
+	color: black;
+	background-color: lightgreen;
+}
+
+#auswahl {
+	width: 22px;
+}
+
+#year {
+	width: 20;
+}
+
+#year1 {
+	width: 22;
+}
+
+#year2 {
+	width: 22px;
+}
+
+#day { 
+	width: 22px;
+}
+
+#day1 { 
+	width: 22px;
+}
+
+#day2 { 
+	width: 22px;
+}
+
+#month { 
+	width: 22px;
+}
+
+#month1 { 
+	width: 200px;
+}
+
+#month2 { 
+	width: 200px;
+}
+
+#bday {
+	width: 250px;
+	height: 60px;
+}
+
+#menue {
+	height: 100px;
+	width: 100px;
+	margin-right: 20px;
+}
+
+#deal {
+	width: 450px;
+}
+
+#bestaetigen {
+	border-radius: 50px;
+	color: black;
+	background-color: coral;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(50, 190, 22);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(242, 97, 34);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
