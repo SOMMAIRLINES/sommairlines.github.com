@@ -28,7 +28,7 @@ input {
 
 select {
 	border: 200px;
-	border-radius: 0px;
+	border-radius: 50px;
 	height: 25px;
 	width: 20px;
 	font-size: 22;
