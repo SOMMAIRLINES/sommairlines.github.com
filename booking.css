@@ -97,6 +97,14 @@ select {
 	width: 35px;
 }
 
+#emaileingabe {
+	width: 200px;
+}
+
+#emailfield {
+	width: 200px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgb(50, 190, 22);

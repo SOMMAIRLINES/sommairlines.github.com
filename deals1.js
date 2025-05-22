@@ -11,11 +11,13 @@ let year1 = document.getElementById("year1").value;
 let name = document.getElementById("name").value;
 let nachname = document.getElementById("nachname").value;
 let bday = document.getElementById("bday").value;
+let email = document.getElementById("emailfield").value;
 
 
 document.getElementById("ziel").innerHTML = "Ziel: " + deal;
-document.getElementById("start").innerHTML = "Abflug: " + day + "." month + "." + year;
+document.getElementById("start").innerHTML = "Abflug: " + day + "." + month + "." + year;
 document.getElementById("ende").innerHTML = "Ankunft: " + day1 + "." + month1 + "." + year1;
 document.getElementById("namef").innerHTML = "Name: " + name + " " + nachname;
 document.getElementById("alter").innerHTML = "Geburtstag: " + day2 + "." + month2 + "." + bday;
+document.getElementById("email").innerHTML = "Email: " + email;
 }
