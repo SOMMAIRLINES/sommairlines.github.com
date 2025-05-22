@@ -21,9 +21,9 @@ font-size: 25px;
 input {
 	border: 200px;
 	border-radius: 100px;
-	height: 70px;
-	width: 700px;
-	font-size: 22px;
+	height: 20px;
+	width: 150px;
+	font-size: 15px;
 }
 
 select {
@@ -33,7 +33,7 @@ select {
 	width: 20px;
 	font-size: 22;
 	color: black;
-	background-color: lightgreen;
+	background-color: rgb(50, 190, 22);
 }
 
 #auswahl {
@@ -41,11 +41,11 @@ select {
 }
 
 #year {
-	width: 20;
+	width: 50px;
 }
 
 #year1 {
-	width: 22;
+	width: 50px;
 }
 
 #year2 {
@@ -53,45 +53,41 @@ select {
 }
 
 #day { 
-	width: 22px;
+	width: 35px;
 }
 
 #day1 { 
-	width: 22px;
+	width: 35px;
 }
 
 #day2 { 
-	width: 22px;
+	width: 35px;
 }
 
 #month { 
-	width: 22px;
+	width: 35px;
 }
 
 #month1 { 
-	width: 200px;
+	width: 35px;
 }
 
 #month2 { 
-	width: 200px;
+	width: 35px;
 }
 
 #bday {
-	width: 250px;
-	height: 60px;
-}
-
-#menue {
-	height: 100px;
-	width: 100px;
-	margin-right: 20px;
+	width: 50px;
+	height: 25px;
 }
 
 #deal {
-	width: 450px;
+	width: 100px;
 }
 
 #bestaetigen {
+	height: 30px;
+	width: 100px;
 	border-radius: 50px;
 	color: black;
 	background-color: coral;
