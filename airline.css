@@ -63,11 +63,11 @@ font-size: 25px;
 
 #menue {
 	height: 40px;
-	width: 100px;
+	width: 200px;
 	border: 300px;
 	border-radius: 100px;
 	background: linear-gradient(lightblue, lightgreen);
-	
+	font-size: 22px;
 	color: white;
 	font-family: monospace;
 }
