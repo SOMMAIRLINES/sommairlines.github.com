@@ -1,53 +1,39 @@
 <!doctype html> 
 <html> 
   <head>
+    <script src="deals2.js"></script> 
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="booking.css"> 
-    <script src="booking.js"></script> 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Mega-Deals</title>
 	<link rel="icon"  
       type="image/png"  
       href="Sommairlines Logo - Original - 5000x5000 nur welt.png"> 
-	  <title>Flug buchen</title>
-  </head> 
+  </head>
   <body>
- <div class="topnav">
+  <div class="topnav">
   <a href="index.html">Home</a>
   <a href="maschienen.html">Maschinen</a>
   <a href="crew.html">Crew</a>
   <a href="deals1.html">70er-Deals</a>
-  <a href="deals2.html">Mega Deals</a>
-  <a class="active" href="booking.html">Andere Flüge</a>
+  <a class="active" href="deals2.html">Mega Deals</a>
+  <a href="booking.html">Andere Flüge</a>
   <a href="fracht.html">Fracht</a>
   <a href="impressum.html">Info</a>
 </div>
-  <h1>Booking-Portal</h1>
-  <p>Hier können sie bequem ihre Flüge buchen!</p>
+  <h1>Mega-Deals Buchungsseite</h1>
+<h3>Unsere Mega-Deals:</h3>
+<li class="sale">
+500€ nach London 
+<br>+ einen Kurztrip in London! 
+<br>+ Rückflug im Preis sowie ein fünf Sterne Hotell 
+<br>+ Vollpension
+</li>
+  <p>Bitte einen Deal auswählen</p>
+  <select name="deal" id="deal">
+  <option value="Gran Canaria">London</option>
+  </select>
   <br>
   <p>
-  <u>Fluginfos eingabe:</u>
-  <br>
-  <br>
-  Start: Wien (VIE)
-  <br>
-  Ziel:
-  <input id="eingabe">
-  <br>
-  Personen:
-  <select name="Personen" id="personen">
-  <option value="1">1</option>
-  <option value="2">2</option>
-  <option value="3">3</option>
-  <option value="4">4</option>
-  <option value="5">5</option>
-  </select>
-  <br>
-  Sitzplatz reservierung (+25€):
-  <select name="auswahl" id="auswahl">
-  <option value="no">Nein</option>
-  <option value="yes">Ja</option>
-  </select>
-  <br>
-  <br>
   <u>Reise Start:</u>
   <br>
   <select name="day" id="day">.
@@ -134,7 +120,7 @@
   <option value="25">25</option>
   <option value="26">26</option>
   <option value="27">27</option>
-  <option value="28">29</option>
+  <option value="28">28</option>
   <option value="29">29</option>
   <option value="30">30</option>
   <option value="31">31</option>
@@ -160,10 +146,7 @@
   <option value="2028">2028</option>
   </select>
   </p>
-  <p>
-  <br>
-  <u>Infos über Sie (eingabe):</u>
-  <br>
+  <p><u>Ihre Daten</u>
   <br>
   <br>
   Vorame: <input id="name">
@@ -171,7 +154,6 @@
   Nachname: <input id="nachname">
   <br>
   Geburtstag: 
-  <br>
   <select name="day2" id="day2">.
   <option value="1">1</option>
   <option value="2">2</option>
@@ -200,7 +182,7 @@
   <option value="25">25</option>
   <option value="26">26</option>
   <option value="27">27</option>
-  <option value="28">29</option>
+  <option value="28">28</option>
   <option value="29">29</option>
   <option value="30">30</option>
   <option value="31">31</option>
@@ -221,20 +203,19 @@
   </select>
   <input id="bday">
   <br>
-  Email:<input id="emaileingabe">
+  Email-Adresse:
+  <input id="emailfield">
+  <br>
+  </p>
+  <br>
+  <input type="button" value="Bestätigen" id="bestaetigen" onclick="ergebnis()">
   <br>
   <br>
   <br>
-  
-  <input id="bestaetigen" type="button" value="Bestätigen" onclick="auswerten()">
-  <p><u>Reise Infos:</u></p>
-  <b>
-  <li>Start: Wien
+  <p><u>Infos Flug</u></p>
+  <li>Start: Wien</li>
   <li id="ziel">Ziel:</li>
-  <li id="neben">Sitzplatz reservierung:</li>
-  <li id="personena">Personen:</li>
-  <li id="kosten">Kosten:</li>
-  <li id="kostenpp">Kosten pro Person:</li>
+  <li id="kosten">Kosten: 500€</li>
   <br>
   <li id="start">Abflug:</li>
   <li id="ende">Ankunft:</li>
@@ -242,14 +223,15 @@
   <p><u>Infos Bucher</u></p>
   <li id="namef">Name:</li>
   <li id="alter">Geburtstag:</li>
-  <li id="email">Email-adresse:</li>
+  <li id="email">Email:</li>
   </b>
   <br>
   <br>
+
   <p>Hinweis: Dies ist lediglich eine Reservierung!
   <br>
   Das bedeutet, dass Sie bei der Gepäckabgabe
   <br>
   Bar oder mit Karte die Reservierung bezahlen!</p>
-  </body> 
-</html> 
+  </body>
+  </html>
