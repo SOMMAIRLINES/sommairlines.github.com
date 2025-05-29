@@ -1,0 +1,58 @@
+<!doctype html> 
+<html> 
+  <head>
+    <script src="karriere.js"></script> 
+    <link rel="stylesheet" href="karriere.css"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon"  
+      type="image/png"  
+      href="Sommairlines Logo - Original - 5000x5000 nur welt.png"> 
+	  <title>Karriere</title>
+  </head> 
+  <body>
+    <div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="maschienen.html">Maschinen</a>
+  <a href="crew.html">Crew</a>
+  <a href="deals1.html">70er-Deals</a>
+  <a href="deals2.html">Mega Deals</a>
+  <a href="booking.html">Andere Flüge</a>
+  <a href="fracht.html">Fracht</a>
+  <a class="active" href="karriere.html">Karriere</a>
+  <a href="impressum.html">Info</a>
+</div>
+<h1>Karriere bei Sommairlines</h1>
+<br>
+<img src="karriere.png">
+<br>
+<h3>Deine Daten</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Vorname</label>
+    <input type="text" id="fname" name="firstname" placeholder="Vorname">
+
+    <label for="lname">Nachname</label>
+    <input type="text" id="lname" name="lastname" placeholder="Nachname">
+
+    <label for="country">Land</label>
+    <select id="country" name="country">
+      <option value="Österreich">Österreich</option>
+      <option value="Deutschland">Deutschland</option>
+      <option value="Schweiz">Schweiz</option>
+	  <option value="anderes">ein anderes Land (bitte unten angeben welches)</option>
+    </select>
+    <label for="job">Position</label>
+	<select id="position" name="position">
+	<option value="boden">Bodenpersonal</option>
+	<option value="pilot">Pilot*inn</option>
+	<option value="flugbgl">Flugbegleiter*inn</option>
+	</select>
+	<label for="subject">Etwas über dich</label>
+    <textarea id="subject" name="subject" placeholder="Etwas über dich. Warum willst du diese Stelle, dein Beruflicher Werdegang, welche Stelle willst du genau,..." style="height:200px"></textarea>
+	<input type="submit" value="Abschicken">
+  </form>
+</div>
+
+</body>
+</html>
